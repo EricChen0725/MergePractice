@@ -11,7 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href = "self/style.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
@@ -26,7 +26,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">自我介紹</a>
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="random-select.html">晚餐吃甚麼</a>
@@ -55,19 +55,50 @@
       </nav>
     </header>
 
-    <main role="main">
+  <main role="main">
 
+     
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide" src="https://images2.alphacoders.com/640/640379.jpg" height="140" >
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>陳英智</h1>
+                <p>2000/07/25</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <br></br>
+      <br></br>
+    
       <div class="container marketing">
-        <hr class="featurette-divider">
-        <!--繼有的-->
-        <hr class="featurette-divider">
-        <!-- 既有的index.html內容放在這裡-->
-        <h1>名字：陳英智</h1>
-        <h2>生日：2000/07/25</h2>
-        <h2>星座：獅子座</h2>
-        <h2>興趣：打電動</h2>
-        <hr class="featurette-divider">
- 
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="https://www.lnka.tw/images/article/201812030243cd64d2.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>獅子座</h2>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="https://attach.mobile01.com/attach/201810/mobile01-4ec1df6a010852243f82c72c7f97a190.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>喜歡打電動</h2>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="data:image/png;base64,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" alt="Generic placeholder image" width="140" height="140">
+            <h2>喜歡看劇</h2>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+
+
       </div><!-- /.container -->
 
 
