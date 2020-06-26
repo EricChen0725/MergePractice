@@ -1,0 +1,26 @@
+body
+{
+    text-align: center;/*顏色*/
+    background-color: rgb(197, 226, 226);
+    font-family: "fantasy","sans-serif","monospace";
+}
+
+table
+{
+    width:60%;
+    margin:auto;
+    font-size: 1.5em;
+    border: 5px double rgb(65, 129, 129);/*標格邊框線的粗度 顏色*/
+}
+
+td
+{
+    border-top: 1px dashed rgb(167, 167, 211);
+    border-bottom: 1px solid rgb(129, 129, 193));
+}
+
+th
+{
+    border: 2px solid rgb(65, 129, 129);/*小標的框框*/
+}
+

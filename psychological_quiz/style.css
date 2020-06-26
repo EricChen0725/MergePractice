@@ -1,0 +1,8 @@
+/*網頁樣式檔*/
+body
+{
+    text-align: center;/*置中*/
+    color: rgb(92, 92, 92);
+    background-color: rgb(197, 226, 226);
+    font-family: "fantasy","sans-serif","monospace";
+}
